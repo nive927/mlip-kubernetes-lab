@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # TODO: Add backend server URL for round-robin distribution
 BACKEND_SERVERS = [
-   # "http://<unique-service-name>:5001"
+   # "http://flask-backend-service:5001"
 ]
 
 # Round-robin iterator for distributing requests
